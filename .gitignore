@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.torchinductor*/
+torchinductor_*/
+Ultralytics/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+.npm-cache/
+npm-debug.log*
+
+# Datasets & training artifacts (large)
+chest_xray/
+train/
+test/
+val/
+runs/
+*.pt
+*.pth
+*.onnx
+
+# OS / tooling
+__MACOSX/
+*.lnk
+.tmp/
+.env
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.err
+

@@ -1,0 +1,6 @@
+train: D:/VIEMPHOI/chest_xray/train
+val: D:/VIEMPHOI/chest_xray/val
+test: D:/VIEMPHOI/chest_xray/test
+
+nc: 2  # số lớp
+names: ['NORMAL', 'PNEUMONIA']

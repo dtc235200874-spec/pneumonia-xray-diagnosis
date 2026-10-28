@@ -1,0 +1,8 @@
+﻿# Backend dependencies for the React-version pneumonia diagnosis app.
+# Install CPU-only torch FIRST (~200MB instead of the ~2.5GB CUDA build):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+fastapi
+uvicorn
+python-multipart
+ultralytics
